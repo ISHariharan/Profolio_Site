@@ -1,24 +1,46 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './index.module.css';
+import styles from '../pages/index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import ProfileImage from "../../static/img/profile.jpg"
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+function HomePageHeaderv2() {
+  useEffect(() => {
+    const text = document.querySelector(`.${styles.secText}`);
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = 'Student';
+      }, 0);
+      setTimeout(() => {
+        text.textContent = 'Developer';
+      }, 4000);
+      setTimeout(() => {
+        text.textContent = 'Designer';
+      }, 8000);
+    };
+    textLoad();
+    const interval = setInterval(textLoad, 12000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+    <header>
+      <div className={styles.container}>
+        <div className={styles.headerContent}>
+          <div className={styles.headerText}>
+            <h1 className={styles.MyName}>Hariharan I S</h1>
+            <h3 className={styles.IamContainer}>
+              <div><span className={clsx(styles.text, styles.firstText)}>I'm a </span></div>
+              <div><span className={clsx(styles.text, styles.secText)}>Freelancer</span></div>
+            </h3>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.cardInfo}>
+              <img src={ProfileImage} alt="Profile" className={styles.profileImage} />
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -26,12 +48,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+    <Layout title={``}>
+      <HomePageHeaderv2 />
       <main>
         <HomepageFeatures />
       </main>
