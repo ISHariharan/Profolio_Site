@@ -1,4 +1,8 @@
 {
-  "label": "Tutorial - Basics",
-  "position": 2
+  "label": "Information",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "DevAssure leverages cutting-edge Generative AI (Gen-AI) to automate test-driven development(TDD). It analyzes your Product Requirements Document(PRD) and UI mockups to generate comprehensive test cases. Additionally, DevAssure proactively identifies potential functional bugs by analyzing your code."
+  }
 }
