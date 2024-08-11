@@ -55,7 +55,7 @@
         { to : '/Connection', label : 'Connections', position : 'left'},
         { to: '/UnderProcess', label: 'Blog', position: 'left' },
         {
-          to: 'https://www.google.com',
+          to: `https://www.dropbox.com/scl/fi/yl6xewkm1m0pggbwcncka/Hariharan-s-resume.pdf?rlkey=bapa53o2r54yr9gr76h1lywl3&st=hn3xcsin&dl=1`,
           label: 'Download CV',
           position: 'right',
           className: 'download-button',
@@ -121,7 +121,7 @@
             },
             {
               label: 'Download CV',
-              href: 'https://linktr.ee/hariharanis',
+              href: `https://www.dropbox.com/scl/fi/yl6xewkm1m0pggbwcncka/Hariharan-s-resume.pdf?rlkey=bapa53o2r54yr9gr76h1lywl3&st=hn3xcsin&dl=1`,
             },
           ],
         },
