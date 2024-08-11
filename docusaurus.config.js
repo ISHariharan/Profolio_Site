@@ -121,7 +121,7 @@
             },
             {
               label: 'Download CV',
-              href: '',
+              href: 'https://linktr.ee/hariharanis',
             },
           ],
         },
