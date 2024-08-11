@@ -79,19 +79,19 @@
             },
             {
               label: 'Experience',
-              to: '/',
+              to: '/docs/tutorial-basics/Experience/Intership',
             },
             {
               label: 'Extracurricular',
-              to: '/',
+              to: '/docs/tutorial-basics/Extra%20Curricular/Handball',
             },
             {
               label: 'Volunteering',
-              to: '/',
+              to: '/docs/tutorial-basics/Volunteering/Volunteering',
             },
             {
               label: 'Projects',
-              to: '/',
+              to: '/docs/tutorial-basics/Projects/AidNet',
             },
           ],
         },
