@@ -4,42 +4,39 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('/img/undraw_docusaurus_mountain.svg').default,
+    title: 'My Projects',
+    imgSrc: require('/img/Projects.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Explore a curated selection of my most impactful and innovative projects. From dynamic web applications to engaging interactive experiences, see how my skills and creativity come to life.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('/img/undraw_docusaurus_tree.svg').default,
+    title: 'Professional Experience',
+    imgSrc: require('/img/Experience.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Dive into my professional journey, where you'll find details about my roles, achievements, and the diverse experiences that have shaped my career. Discover how my background and expertise drive my passion for excellence.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('/img/undraw_docusaurus_react.svg').default,
+    title: 'Connect With Me',
+    imgSrc: require('/img/Contact.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Let’s start a conversation! Whether you’re interested in collaborating on a project, seeking advice, or just want to connect, reach out to me through the links below. I look forward to exploring new opportunities together.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imgSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img className={styles.featureImg} src={imgSrc} alt={title} style={{height : "250px", width : "250px"}} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

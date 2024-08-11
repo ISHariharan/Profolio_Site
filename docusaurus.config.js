@@ -51,9 +51,9 @@
           position: 'left',
           label: 'Archive',
         },
-        { to : '/blog', label : 'Services', position : 'left'},
-        { to : '/blog', label : 'Connections', position : 'left'},
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to :  "/Service", label : 'Services', position : 'left'},
+        { to : '/Connection', label : 'Connections', position : 'left'},
+        { to: '/UnderProcess', label: 'Blog', position: 'left' },
         {
           to: 'https://www.google.com',
           label: 'Download CV',
@@ -61,7 +61,7 @@
           className: 'download-button',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ISHariharan',
           label: 'GitHub',
           position: 'right',
         },
@@ -71,28 +71,44 @@
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Sections',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Education',
+              to: '/docs/tutorial-basics/Education',
+            },
+            {
+              label: 'Experience',
+              to: '/docs/tutorial-basics/Experience',
+            },
+            {
+              label: 'Extracurricular',
+              to: '/docs/tutorial-basics/Extra%20Curricular',
+            },
+            {
+              label: 'Volunteering',
+              to: '/docs/tutorial-basics/Volunteering',
+            },
+            {
+              label: 'Projects',
+              to: '/docs/tutorial-basics/Projects',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/hariharan-i-s-85aa10246/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/ISHariharan',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Linktree',
+              href: 'https://linktr.ee/hariharanis',
             },
           ],
         },
@@ -101,11 +117,11 @@
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/UnderProcess',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Download CV',
+              href: '',
             },
           ],
         },

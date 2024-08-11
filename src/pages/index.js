@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from '../pages/index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures/HomepageFeatures';
-import ProfileImage from "../../static/img/profile.jpg"
+import ProfileImage from "../../static/img/portfolio-3.png"
 
 function HomePageHeaderv2() {
   useEffect(() => {
