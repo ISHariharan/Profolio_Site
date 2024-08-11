@@ -75,23 +75,23 @@
           items: [
             {
               label: 'Education',
-              to: '/docs/tutorial-basics/Education',
+              to: '/',
             },
             {
               label: 'Experience',
-              to: '/docs/tutorial-basics/Experience',
+              to: '/',
             },
             {
               label: 'Extracurricular',
-              to: '/docs/tutorial-basics/Extra%20Curricular',
+              to: '/',
             },
             {
               label: 'Volunteering',
-              to: '/docs/tutorial-basics/Volunteering',
+              to: '/',
             },
             {
               label: 'Projects',
-              to: '/docs/tutorial-basics/Projects',
+              to: '/',
             },
           ],
         },
@@ -126,7 +126,7 @@
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2024 My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
