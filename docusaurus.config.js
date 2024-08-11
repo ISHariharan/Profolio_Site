@@ -75,7 +75,7 @@
           items: [
             {
               label: 'Education',
-              to: '/',
+              to: '/docs/tutorial-basics/Education/HigherEducation',
             },
             {
               label: 'Experience',
