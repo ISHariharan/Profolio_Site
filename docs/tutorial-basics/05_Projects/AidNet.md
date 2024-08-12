@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # AidNet
 
+[![Visit AidNet on GitHub](https://img.shields.io/badge/Visit%20AidNet%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ISHariharan/Aidnet)
+
 ## Project Overview
 
 AidNet is an innovative social networking platform developed to facilitate direct interactions between individuals in need and non-governmental organizations (NGOs) that can provide support. The platform serves as a bridge to streamline communication, problem-solving, and service delivery. By leveraging modern web technologies, AidNet enables users to effectively post their problems, connect with relevant NGOs, and track the resolution process in a transparent and user-friendly manner.

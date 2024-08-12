@@ -4,6 +4,11 @@ sidebar_position: 2
 
 # Smart Energy Meter Project
 
+## Explore the Project
+
+[![Visit Smart Energy Meter on GitHub](https://img.shields.io/badge/Visit%20Smart%20Energy%20Meter%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ISHariharan/Smart-energy-meter)
+
+
 ## Introduction
 
 The Smart Energy Meter project exemplifies the application of IoT technologies in energy management and efficiency. This project integrates a smart energy meter system designed to monitor, measure, and analyze the energy consumption of electrical appliances. Leveraging various sensors and a microcontroller, the system captures real-time data, processes it, and provides actionable insights to users.

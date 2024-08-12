@@ -4,6 +4,12 @@ side_position : 3
 
 # Handball Arena
 
+## Explore the Project
+
+[![Visit Handball Arena on GitHub](https://img.shields.io/badge/Visit%20Handball%20Arena%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ISHariharan/Handball-Arena)
+
+
+
 ## Project Overview
 
 Handball Arena is a comprehensive platform designed to host and manage handball matches. It provides users with detailed insights into match statistics, player performances, and upcoming tournaments. The system caters to two main user roles: Hosts and Users.
