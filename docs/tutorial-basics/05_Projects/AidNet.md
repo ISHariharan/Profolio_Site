@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # AidNet
 
+## Explore the Project
+
 [![Visit AidNet on GitHub](https://img.shields.io/badge/Visit%20AidNet%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ISHariharan/Aidnet)
 
 ## Project Overview
