@@ -39,7 +39,7 @@ function Services({ items }) {
                                     ) : null
                                 ))}
                         </ul>
-                        <Link to="/docs/intro" className="button">Contact Us</Link>
+                        <Link to="/docs/intro#contact-information" className="button">Contact Us</Link>
                     </div>
                 </div>
             ))}
