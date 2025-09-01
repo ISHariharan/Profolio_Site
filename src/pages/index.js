@@ -11,9 +11,6 @@ function HomePageHeaderv2() {
     const text = document.querySelector(`.${styles.secText}`);
     const textLoad = () => {
       setTimeout(() => {
-        text.textContent = 'Student';
-      }, 0);
-      setTimeout(() => {
         text.textContent = 'Developer';
       }, 4000);
       setTimeout(() => {

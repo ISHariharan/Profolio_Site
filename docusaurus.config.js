@@ -55,7 +55,7 @@
         { to : '/Connection', label : 'Connections', position : 'left'},
         { to: '/UnderProcess', label: 'Blog', position: 'left' },
         {
-          to: `https://www.dropbox.com/scl/fi/yl6xewkm1m0pggbwcncka/Hariharan-s-resume.pdf?rlkey=bapa53o2r54yr9gr76h1lywl3&st=hn3xcsin&dl=1`,
+          to: `https://www.dropbox.com/scl/fi/m8i05vfdl7rctlbac1uka/Resume.pdf?rlkey=ipkgdu7vu8ws70zc3sjvj15iv&st=91vk0xtm&dl=1`,
           label: 'Download CV',
           position: 'right',
           className: 'download-button',

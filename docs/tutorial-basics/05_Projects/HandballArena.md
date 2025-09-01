@@ -1,5 +1,5 @@
 ---
-side_position : 3
+side_position : 5
 ---
 
 # Handball Arena
